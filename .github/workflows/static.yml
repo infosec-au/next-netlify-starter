@@ -1,0 +1,45 @@
+name: Request and Print
+
+on:
+  workflow_dispatch:
+
+jobs:
+  request_and_print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send GET requests to URLs
+        run: |
+          echo "Requesting https://tmob-sdlc-jirasw-jira-temp.tmob.cprime.cloud"
+          curl -vv -k https://tmob-sdlc-jirasw-jira-temp.tmob.cprime.cloud
+          echo "Requesting https://jirasd-sandbox.t-mobile.com"
+          curl -vv -k https://jirasd-sandbox.t-mobile.com
+          echo "Requesting https://sharedjira.jira-tt.t-mobile.com"
+          curl -vv -k https://sharedjira.jira-tt.t-mobile.com
+          echo "Requesting https://jirasw.t-mobile.com"
+          curl -vv -k https://jirasw.t-mobile.com
+          echo "Requesting https://jirasd-training.t-mobile.com"
+          curl -vv -k https://jirasd-training.t-mobile.com
+          echo "Requesting https://tmob-sdlc-jirasw-jira-restored-train.tmob.cprime.cloud"
+          curl -vv -k https://tmob-sdlc-jirasw-jira-restored-train.tmob.cprime.cloud
+          echo "Requesting https://jirasd-stage.t-mobile.com"
+          curl -vv -k https://jirasd-stage.t-mobile.com
+          echo "Requesting https://sharedjira.t-mobile.com"
+          curl -vv -k https://sharedjira.t-mobile.com
+          echo "Requesting https://jirasd.t-mobile.com"
+          curl -vv -k https://jirasd.t-mobile.com
+          echo "Requesting https://jirasw-stage.t-mobile.com"
+          curl -vv -k https://jirasw-stage.t-mobile.com
+          echo "Requesting https://jirasw-training.t-mobile.com"
+          curl -vv -k https://jirasw-training.t-mobile.com
+          echo "Requesting https://jirasw-dev.t-mobile.com"
+          curl -vv -k https://jirasw-dev.t-mobile.com
+          echo "Requesting https://jirasw-sandbox.t-mobile.com"
+          curl -vv -k https://jirasw-sandbox.t-mobile.com
+          echo "Requesting https://confluencesw.t-mobile.com"
+          curl -vv -k https://confluencesw.t-mobile.com
+          echo "Requesting https://confluencesw-stage.t-mobile.com"
+          curl -vv -k https://confluencesw-stage.t-mobile.com
+          echo "Requesting https://confluencesw-training.t-mobile.com"
+          curl -vv -k https://confluencesw-training.t-mobile.com
+          echo "Requesting https://jirasw.jira-tt.t-mobile.com"
+          curl -vv -k https://jirasw.jira-tt.t-mobile.com
