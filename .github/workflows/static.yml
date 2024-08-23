@@ -9,37 +9,5 @@ jobs:
     steps:
       - name: Send GET requests to URLs
         run: |
-          echo "Requesting https://tmob-sdlc-jirasw-jira-temp.tmob.cprime.cloud"
-          curl -vv -k --max-time 10 https://tmob-sdlc-jirasw-jira-temp.tmob.cprime.cloud
-          echo "Requesting https://jirasd-sandbox.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasd-sandbox.t-mobile.com
-          echo "Requesting https://sharedjira.jira-tt.t-mobile.com"
-          curl -vv -k --max-time 10 https://sharedjira.jira-tt.t-mobile.com
-          echo "Requesting https://jirasw.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasw.t-mobile.com
-          echo "Requesting https://jirasd-training.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasd-training.t-mobile.com
-          echo "Requesting https://tmob-sdlc-jirasw-jira-restored-train.tmob.cprime.cloud"
-          curl -vv -k --max-time 10 https://tmob-sdlc-jirasw-jira-restored-train.tmob.cprime.cloud
-          echo "Requesting https://jirasd-stage.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasd-stage.t-mobile.com
-          echo "Requesting https://sharedjira.t-mobile.com"
-          curl -vv -k --max-time 10 https://sharedjira.t-mobile.com
-          echo "Requesting https://jirasd.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasd.t-mobile.com
-          echo "Requesting https://jirasw-stage.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasw-stage.t-mobile.com
-          echo "Requesting https://jirasw-training.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasw-training.t-mobile.com
-          echo "Requesting https://jirasw-dev.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasw-dev.t-mobile.com
-          echo "Requesting https://jirasw-sandbox.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasw-sandbox.t-mobile.com
-          echo "Requesting https://confluencesw.t-mobile.com"
-          curl -vv -k --max-time 10 https://confluencesw.t-mobile.com
-          echo "Requesting https://confluencesw-stage.t-mobile.com"
-          curl -vv -k --max-time 10 https://confluencesw-stage.t-mobile.com
-          echo "Requesting https://confluencesw-training.t-mobile.com"
-          curl -vv -k --max-time 10 https://confluencesw-training.t-mobile.com
-          echo "Requesting https://jirasw.jira-tt.t-mobile.com"
-          curl -vv -k --max-time 10 https://jirasw.jira-tt.t-mobile.com
+          echo "Requesting https://example.com"
+          curl -vv -k --max-time 10 https://example.com
